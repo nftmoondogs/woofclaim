@@ -1,7 +1,7 @@
-import Image from 'next/image';
 import { useState } from 'react';
 import Head from 'next/head';
 import styles from '../styles/SearchPage.module.css'; // Import the CSS module
+import Image from 'next/image';
 
 function SearchPage() {
     const [walletAddress, setWalletAddress] = useState('');
