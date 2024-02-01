@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { useState } from 'react';
 import Head from 'next/head';
 import styles from '../styles/SearchPage.module.css'; // Import the CSS module
@@ -37,7 +38,7 @@ function SearchPage() {
                 <title>Token Claim Search</title>
             </Head>
 
-            <img src="https://i.ibb.co/wYPcMDT/woof.png" alt="Woof" className={styles.image} />
+            <Image src="https://i.ibb.co/wYPcMDT/woof.png" alt="Woof" width={200} height={200} className={styles.image} />
 
             <div className={styles.searchBox}>
                 <input
