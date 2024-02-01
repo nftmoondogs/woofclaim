@@ -1,0 +1,11 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black; /* Ensure full page background is black */
+  color: white; /* Set text color to white */
+}
+
+* {
+  box-sizing: border-box;
+}

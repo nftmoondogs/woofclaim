@@ -1,0 +1,84 @@
+.container {
+    background-color: black;
+    color: rgb(0, 0, 0);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    max-width: 200px;
+    margin-bottom: 30px;
+}
+
+.searchBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.inputField {
+    padding: 10px;
+    border: 2px solid #555;
+    border-radius: 5px;
+    color: #333;
+    background-color: white;
+    font-size: 16px;
+    width: 300px;
+}
+
+.searchButton, .claimButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.searchButton {
+    background-color: #4b0082; /* Dark purple color */
+    color: white;
+}
+
+.searchButton:hover {
+    background-color: #5c1a90; /* A slightly lighter purple for hover effect */
+}
+
+
+.claimButton {
+    background-color: #28a745;
+    color: white;
+}
+
+.claimButton:hover {
+    background-color: #218838;
+}
+
+.message {
+    color: #dc3545;
+}
+
+.eligibleMessage {
+    color: #28a745; /* Green color for the message */
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Update your existing styles here */
+.container {
+    background-color: black;
+    color: white; /* Make sure the text color is white */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ... rest of your styles */
